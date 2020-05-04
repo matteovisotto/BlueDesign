@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664138B924601B4800F4673D /* MVHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664138B824601B4800F4673D /* MVHeaderView.swift */; };
+		664138BB24601D2E00F4673D /* MVSegmentedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */; };
 		669BC735245F33E400DE4AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC734245F33E400DE4AA2 /* AppDelegate.swift */; };
 		669BC737245F33E400DE4AA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC736245F33E400DE4AA2 /* SceneDelegate.swift */; };
 		669BC739245F33E400DE4AA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC738245F33E400DE4AA2 /* ViewController.swift */; };
@@ -14,6 +16,9 @@
 		669BC73E245F33E700DE4AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669BC73D245F33E700DE4AA2 /* Assets.xcassets */; };
 		669BC741245F33E700DE4AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669BC73F245F33E700DE4AA2 /* LaunchScreen.storyboard */; };
 		669BC74C245F33E700DE4AA2 /* BlueDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC74B245F33E700DE4AA2 /* BlueDesignUITests.swift */; };
+		669BC75B245F360F00DE4AA2 /* myTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC75A245F360F00DE4AA2 /* myTabBar.swift */; };
+		669BC75D245F362A00DE4AA2 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC75C245F362A00DE4AA2 /* myTabBarController.swift */; };
+		669BC75F245F369400DE4AA2 /* BluePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC75E245F369400DE4AA2 /* BluePalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664138B824601B4800F4673D /* MVHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVHeaderView.swift; sourceTree = "<group>"; };
+		664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVSegmentedHeaderView.swift; sourceTree = "<group>"; };
 		669BC731245F33E400DE4AA2 /* BlueDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669BC734245F33E400DE4AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669BC736245F33E400DE4AA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		669BC747245F33E700DE4AA2 /* BlueDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669BC74B245F33E700DE4AA2 /* BlueDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueDesignUITests.swift; sourceTree = "<group>"; };
 		669BC74D245F33E700DE4AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669BC75A245F360F00DE4AA2 /* myTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBar.swift; sourceTree = "<group>"; };
+		669BC75C245F362A00DE4AA2 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
+		669BC75E245F369400DE4AA2 /* BluePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664138BC246032B600F4673D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				664138B824601B4800F4673D /* MVHeaderView.swift */,
+				664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		669BC728245F33E400DE4AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +98,17 @@
 		669BC733245F33E400DE4AA2 /* BlueDesign */ = {
 			isa = PBXGroup;
 			children = (
+				664138BC246032B600F4673D /* View */,
 				669BC734245F33E400DE4AA2 /* AppDelegate.swift */,
 				669BC736245F33E400DE4AA2 /* SceneDelegate.swift */,
 				669BC738245F33E400DE4AA2 /* ViewController.swift */,
 				669BC73A245F33E400DE4AA2 /* Main.storyboard */,
+				669BC75E245F369400DE4AA2 /* BluePalette.swift */,
 				669BC73D245F33E700DE4AA2 /* Assets.xcassets */,
 				669BC73F245F33E700DE4AA2 /* LaunchScreen.storyboard */,
 				669BC742245F33E700DE4AA2 /* Info.plist */,
+				669BC75A245F360F00DE4AA2 /* myTabBar.swift */,
+				669BC75C245F362A00DE4AA2 /* myTabBarController.swift */,
 			);
 			path = BlueDesign;
 			sourceTree = "<group>";
@@ -201,8 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				669BC739245F33E400DE4AA2 /* ViewController.swift in Sources */,
+				664138BB24601D2E00F4673D /* MVSegmentedHeaderView.swift in Sources */,
+				664138B924601B4800F4673D /* MVHeaderView.swift in Sources */,
 				669BC735245F33E400DE4AA2 /* AppDelegate.swift in Sources */,
+				669BC75D245F362A00DE4AA2 /* myTabBarController.swift in Sources */,
 				669BC737245F33E400DE4AA2 /* SceneDelegate.swift in Sources */,
+				669BC75B245F360F00DE4AA2 /* myTabBar.swift in Sources */,
+				669BC75F245F369400DE4AA2 /* BluePalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
