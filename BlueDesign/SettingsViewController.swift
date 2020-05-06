@@ -85,6 +85,11 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         print("Selected row \(indexPath.row) in section \(indexPath.section)" )
+        
+        let addViewController = PlusViewController()
+        addViewController.modalPresentationStyle = .fullScreen
+        present(addViewController, animated: true, completion: nil)
+        
     }
     
 }
