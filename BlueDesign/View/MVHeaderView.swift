@@ -13,7 +13,7 @@ class MVHeaderView: UIView {
     var titleLabel = UILabel()
     
     override func draw(_ rect: CGRect) {
-        titleLabel.frame = CGRect(x: 0, y: 0, width: frame.width-20, height: 100)
+        titleLabel.frame = CGRect(x: 0, y: 0, width: frame.width-20, height: 24)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.textColor = UIColor.white
         titleLabel.font = .boldSystemFont(ofSize: 25)

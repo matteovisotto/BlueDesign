@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660914D624608E6C00D6C731 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660914D524608E6C00D6C731 /* UserDataViewController.swift */; };
 		664138B924601B4800F4673D /* MVHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664138B824601B4800F4673D /* MVHeaderView.swift */; };
 		664138BB24601D2E00F4673D /* MVSegmentedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */; };
+		664138C02460746D00F4673D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664138BF2460746D00F4673D /* SettingsViewController.swift */; };
+		6653650A24631A5D0018AA05 /* MVAddHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6653650924631A5D0018AA05 /* MVAddHeaderView.swift */; };
+		66874CF424614D0200C61227 /* MVNavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66874CF324614D0200C61227 /* MVNavigationHeaderView.swift */; };
+		66874CF7246153AF00C61227 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66874CF6246153AF00C61227 /* SwitchTableViewCell.swift */; };
+		66874CF9246158E700C61227 /* SegueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66874CF8246158E700C61227 /* SegueTableViewCell.swift */; };
 		669BC735245F33E400DE4AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC734245F33E400DE4AA2 /* AppDelegate.swift */; };
 		669BC737245F33E400DE4AA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC736245F33E400DE4AA2 /* SceneDelegate.swift */; };
 		669BC739245F33E400DE4AA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BC738245F33E400DE4AA2 /* ViewController.swift */; };
@@ -32,8 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660914D524608E6C00D6C731 /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 		664138B824601B4800F4673D /* MVHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVHeaderView.swift; sourceTree = "<group>"; };
 		664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVSegmentedHeaderView.swift; sourceTree = "<group>"; };
+		664138BF2460746D00F4673D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6653650924631A5D0018AA05 /* MVAddHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVAddHeaderView.swift; sourceTree = "<group>"; };
+		66874CF324614D0200C61227 /* MVNavigationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVNavigationHeaderView.swift; sourceTree = "<group>"; };
+		66874CF6246153AF00C61227 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		66874CF8246158E700C61227 /* SegueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTableViewCell.swift; sourceTree = "<group>"; };
 		669BC731245F33E400DE4AA2 /* BlueDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669BC734245F33E400DE4AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669BC736245F33E400DE4AA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +85,19 @@
 			children = (
 				664138B824601B4800F4673D /* MVHeaderView.swift */,
 				664138BA24601D2E00F4673D /* MVSegmentedHeaderView.swift */,
+				66874CF324614D0200C61227 /* MVNavigationHeaderView.swift */,
+				6653650924631A5D0018AA05 /* MVAddHeaderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		66874CF52461538800C61227 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				66874CF6246153AF00C61227 /* SwitchTableViewCell.swift */,
+				66874CF8246158E700C61227 /* SegueTableViewCell.swift */,
+			);
+			path = CellView;
 			sourceTree = "<group>";
 		};
 		669BC728245F33E400DE4AA2 = {
@@ -98,8 +121,10 @@
 		669BC733245F33E400DE4AA2 /* BlueDesign */ = {
 			isa = PBXGroup;
 			children = (
+				66874CF52461538800C61227 /* CellView */,
 				664138BC246032B600F4673D /* View */,
 				669BC734245F33E400DE4AA2 /* AppDelegate.swift */,
+				664138BF2460746D00F4673D /* SettingsViewController.swift */,
 				669BC736245F33E400DE4AA2 /* SceneDelegate.swift */,
 				669BC738245F33E400DE4AA2 /* ViewController.swift */,
 				669BC73A245F33E400DE4AA2 /* Main.storyboard */,
@@ -109,6 +134,7 @@
 				669BC742245F33E700DE4AA2 /* Info.plist */,
 				669BC75A245F360F00DE4AA2 /* myTabBar.swift */,
 				669BC75C245F362A00DE4AA2 /* myTabBarController.swift */,
+				660914D524608E6C00D6C731 /* UserDataViewController.swift */,
 			);
 			path = BlueDesign;
 			sourceTree = "<group>";
@@ -223,14 +249,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66874CF424614D0200C61227 /* MVNavigationHeaderView.swift in Sources */,
 				669BC739245F33E400DE4AA2 /* ViewController.swift in Sources */,
+				6653650A24631A5D0018AA05 /* MVAddHeaderView.swift in Sources */,
 				664138BB24601D2E00F4673D /* MVSegmentedHeaderView.swift in Sources */,
 				664138B924601B4800F4673D /* MVHeaderView.swift in Sources */,
 				669BC735245F33E400DE4AA2 /* AppDelegate.swift in Sources */,
+				66874CF9246158E700C61227 /* SegueTableViewCell.swift in Sources */,
+				66874CF7246153AF00C61227 /* SwitchTableViewCell.swift in Sources */,
 				669BC75D245F362A00DE4AA2 /* myTabBarController.swift in Sources */,
 				669BC737245F33E400DE4AA2 /* SceneDelegate.swift in Sources */,
 				669BC75B245F360F00DE4AA2 /* myTabBar.swift in Sources */,
+				660914D624608E6C00D6C731 /* UserDataViewController.swift in Sources */,
 				669BC75F245F369400DE4AA2 /* BluePalette.swift in Sources */,
+				664138C02460746D00F4673D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

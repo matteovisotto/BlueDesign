@@ -50,8 +50,6 @@ class ViewController: UIViewController {
         bottomView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
     }
     
-    
-    
     private func addCentralCard() {
         let card = UIView(frame: CGRect(x: bottomView.frame.minX+15, y: bottomView.frame.minY-60, width: view.frame.width-30, height: 120))
         card.layer.cornerRadius = 10
