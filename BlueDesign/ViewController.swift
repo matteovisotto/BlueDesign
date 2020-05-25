@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         view.addSubview(headerView)
         headerView.delegate = self
         headerView.setTitle(title: "Giornaliero")
-        headerView.setSegmentItems(items: ["Minzione", "Acqua"])
+        headerView.setSegmentItems(items: ["Tab 1", "Tab 2"])
     }
     
     private func addBottomView(){
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         let descriptionLabel = UILabel(frame: CGRect(x: 0, y: 0, width: card.frame.width, height: 25))
                descriptionLabel.font = .boldSystemFont(ofSize: 25)
                descriptionLabel.textAlignment = .center
-               descriptionLabel.text = "Totale giornaliero"
+               descriptionLabel.text = "Informazioni"
                descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
                card.addSubview(descriptionLabel)
                descriptionLabel.topAnchor.constraint(equalTo: card.topAnchor, constant: 10).isActive = true
